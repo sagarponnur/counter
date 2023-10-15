@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    row-gap: 2rem;
+}
+h2, #counter {
+    font-size: 3rem;
+}
+
+.btn {    
+    padding: 1rem 1.5rem;
+    background: none;
+    border:2px solid #121212;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;    
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
